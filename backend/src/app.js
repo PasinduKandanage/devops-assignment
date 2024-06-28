@@ -34,6 +34,6 @@ app.use((err, req, res, next) => {
 })
 
 app.get('/',(req,res)=>{
-    res.send('Hello world!!!')
+    res.send('Hellow world!!!')
 })
 module.exports = app;
